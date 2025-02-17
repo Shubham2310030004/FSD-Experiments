@@ -1,0 +1,51 @@
+.Container
+{
+    border: 1px solid red;
+    width: 700px;
+}
+.Header
+{
+    padding: 10px;
+    border-bottom:1px solid red ;
+    display: flex;
+}
+.Body
+{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom: 1px solid red;
+    display: flex;
+}
+.Heading
+{
+    border-right: 1px solid red;
+    flex: 1;
+}
+.Menu
+{
+    flex: 2;
+}
+.Menu span
+{
+    margin-left: 20px;
+}
+.Image
+{
+    flex: 1;
+    padding: 50px;
+}
+.Description
+{
+    flex: 2;
+    padding: 50px;
+}
+.Footer
+{
+    margin-left: 400px;
+    padding: 10px;
+}
+.Socials span
+{
+    margin-left: 20px;
+}

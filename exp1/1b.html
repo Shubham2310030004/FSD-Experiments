@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Display</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-rows: 25% 25% 25% 25%;
+            gap: 2px;
+        }
+
+        .header {
+            background-color: #fcecd3;
+            grid-column: 1 / 5;
+            grid-row: 1 / 2;
+        }
+
+        .small-box1, .small-box2, .small-box3 {
+            background-color: cyan;
+        }
+
+        .small-box1 {
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        }
+
+        .small-box2 {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+
+        .small-box3 {
+            grid-column: 3 / 4;
+            grid-row: 2 / 3;
+        }
+
+        .sidebar {
+            background-color: limegreen;
+            grid-column: 4 / 5;
+            grid-row: 2 / 4;
+        }
+
+        .main-content {
+            background-color: yellow;
+            grid-column: 1 / 4;
+            grid-row: 3 / 4;
+        }
+
+        .footer {
+            background-color: blue;
+            grid-column: 1 / 5;
+            grid-row: 4 / 5;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">HEADER</div>
+        <div class="small-box1">SMALL BOX 1</div>
+        <div class="small-box2">SMALL BOX 2</div>
+        <div class="small-box3">SMALL BOX 3</div>
+        <div class="sidebar">SIDE BAR</div>
+        <div class="main-content">MAIN CONTENT</div>
+        <div class="footer">FOOTER</div>
+    </div>
+</body>
+</html>
