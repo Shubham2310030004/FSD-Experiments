@@ -1,7 +1,7 @@
 import axios from "axios"
 import { useState } from "react"
 
-export default function Exp6(){
+export default function Exp6a(){
     
         const[result, setResult] = useState("Nothing")
         if(result == "Nothing"){
@@ -12,7 +12,7 @@ export default function Exp6(){
     if(result != "Nothing")
     return(
         <div>
-            Dr.A.Siva Krishna Reddy
+            Data
             <br/> <br/> 
             <table border={1}>
                 <tr>
